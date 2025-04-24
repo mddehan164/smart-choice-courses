@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className='d-flex justify-content-around gap-3'>
                     <button type='button' className={btnClass.class}><a href="/home" className={navClass.class}>Home</a></button>
                     <button type='button' className={btnClass.class}><a href="courses" className={navClass.class}>Courses</a></button>
-                    <button type='button' className={btnClass.class}><a href="sign-up" className={navClass.class}>Signup</a></button>
+                    <button type='button' className='btn btn-success btn-lg btn-custom'><a href="sign-up" className={navClass.class}>Signup</a></button>
                 </div>
             </nav>
         </div>

@@ -4,6 +4,7 @@ import image from '../../images/hero1.png';
 import heroCarousel1 from '../../images/hero-carousel/hero-carousel-1.jpg';
 import heroCarousel2 from '../../images/hero-carousel/hero-carousel-2.jpg';
 import heroCarousel3 from '../../images/hero-carousel/hero-carousel-3.jpg';
+import Achievements from '../Achievements/Achievements';
 
 
 const Home = () => {
@@ -21,7 +22,7 @@ const Home = () => {
     },
     {
         id: 2,
-        title: 'Carier Making is Easy',
+        title: 'Carier Making with Learning',
         titleColor: 'fw-bold text-danger',
         subtitle: 'Learn 100+ courses from the best instructors',
         subtitleColor: '#EE5F43',
@@ -35,6 +36,9 @@ const Home = () => {
     return (<>
         <div className='w-100'>
             {heros.map((hero)=> <Hero1 hero={hero} key={hero.id}></Hero1>)}
+        </div>
+        <div className='container-fluid bg-light py-5'>
+            <Achievements></Achievements>
         </div>
         </>
     );

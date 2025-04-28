@@ -10,13 +10,13 @@ const Hero1 = (props) => {
             <div className={`col-md-6 fs-5 mx-2`}>
                 <h1 className={titleColor}>{title}</h1><br />
                 <h4 style={{color : subtitleColor}}>{subtitle}</h4>
-                <p>{description}</p>
+                <p className={`${reverse ? 'text-gray' : 'text-dark'}`}>{description}</p>
                 <button className={buttonClass}>{buttonText}</button>
             </div>
     
             <div className="col-md-6 mx-2">
                 {reverse ? (
-                   <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                   <div id="carouselExampleSlidesOnly" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                         <img src={image[0]} className="d-block w-100" alt="..." />

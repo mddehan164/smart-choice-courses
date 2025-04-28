@@ -1,0 +1,11 @@
+.box-shadow{
+    box-shadow: 0 0 3px lightgray;
+}
+.profession{
+    height: 20vh;
+    overflow: auto;
+}
+.descrip{
+    height: 20vh;
+    overflow: auto;
+}

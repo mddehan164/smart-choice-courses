@@ -3,8 +3,7 @@ import './Navbar.css';
 import logo from '../../../images/logo.png';
 
 const Navbar = (props) => {
-    const btnClass = {class: 'btn btn-outline-primary btn-lg text-light'};;
-    console.log(props);
+    const btnClass = {class: 'btn btn-outline-primary btn-lg text-light'};
     return (
         <div className='container-fluid bg-dark w-100 fixed-top'>
             <nav className="navbar ">

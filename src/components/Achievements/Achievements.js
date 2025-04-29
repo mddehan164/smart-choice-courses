@@ -4,7 +4,6 @@ import { PiStudentFill } from "react-icons/pi";
 
 
 const Achievements = (props) => {
-    console.log(props);
     const {name, profession, image, description} = props.achievement;
     return (
         <div className="col-md-3 border-4 border-primary rounded border-top p-4 box-shadow m-4">
